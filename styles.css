@@ -18,7 +18,7 @@ body{
     padding: 0 15%;
 }
 
-.footer, ul, .section-1 {
+.footer, ul, .section-1, .text {
     color: #E5E7EB;
     font-size: 18px;
 }
@@ -94,4 +94,45 @@ div .right {
 
 .section-1 div {
     flex: 1;
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.big-text{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    padding: 50px 0;
+ }
+
+.box-container {
+    display: flex;
+    padding: 0 15%;
+    justify-content: center;
+    text-align: center;
+    gap: 55px;
+    margin-bottom: 150px;
+}
+
+.img-container{
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+}
+
+.box {
+    width: 160px;
+    height: 160px;
+    border: 4px solid #3882f6;
+    margin: 0 auto;
+    border-radius: 16px;
+}
+
+.text {
+    color:rgb(110,115,125);
+    margin: 8px 0;
 }
